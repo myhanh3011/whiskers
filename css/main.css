@@ -1,0 +1,545 @@
+@charset "UTF-8";
+/* CSS Document */
+.main
+{
+	width: 100%;
+	height: 2000px;
+	background-color: white;
+}
+.header
+{
+	width: 100%;
+	height: 3%;
+	background-color:whitesmoke;
+	text-align: center;
+    padding-top: 15px;
+	box-sizing: border-box;
+    font-size: 10pt; 
+    font-kerning: none;
+}
+.header b a
+{
+    text-decoration: none;
+}
+.brandname
+{
+	width: 100%; 
+	height: 5%;
+	background-color: none;
+	padding: 20px; 
+	box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo
+{
+    width: 20%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu
+{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul
+{
+	list-style: none;
+}
+
+.menu ul li
+{
+	padding: 5px 40px 5px 40px;
+	float: left;
+	position: relative;
+}
+
+.menu ul li:hover
+{
+	border-bottom: 2px solid #0F2E26;
+}
+
+.menu ul li a 
+{
+	text-decoration: none; 
+    color: black;
+}
+.menu ul li ul
+{
+	position: absolute; 
+	left: -40px;
+	top: 28px;
+	visibility: hidden; 
+}
+.menu ul li ul li
+{
+	width: 150px; 
+	background-color: #E7F7F3; 
+    z-index: 1;
+}
+.menu ul li:hover ul
+{
+	visibility: visible;
+    border-bottom: none;
+}
+.middle
+{
+	width: 100%;
+	height: 713px; 
+	background-color: white;
+	margin-top: 18px;
+    z-index: -2;
+}
+.middle1
+{
+	width: 33%;
+	height: 713px;
+	background-color: antiquewhite; 
+	float: left;
+	position: relative; 
+}
+.middle2 
+{
+	width: 33%;
+	height: 713px;
+	background-color: white;
+	position: absolute; 
+	left: 33.7%;
+    z-index: 0;
+}
+.middle3
+{
+	width: 33%;
+	height: 713px;
+	background-color: antiquewhite; 
+	float: right; 
+}
+.text1
+{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+.text1 b
+{
+    letter-spacing: 1px;
+    font-size: 20pt;
+    font-kerning: normal;
+    padding: 33px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.cta1
+{
+    width: 10%;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #0F2E26;
+    position: absolute;
+    top: 1020px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.cta1 a
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+}
+.cta1:hover
+{
+    background-color: #E7F7F3;
+}
+.banner
+{
+    width: 100%;
+    height: 715px;
+    background: url("../images/4.jpg");
+    margin-top: 30px;
+    position: relative;
+}
+.banner b
+{
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-kerning: normal;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.bannerdescrip
+{
+    width: 16%;
+    height: 250px;
+    background-color:none;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    line-height: 25px;
+    text-align: inherit;
+}
+.cta2
+{
+    width: 10%;
+    height: 35px;
+    background-color: none;
+    border: 1px solid #0F2E26;
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.cta2 a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;;
+    justify-content: center;
+}
+.cta2:hover
+{
+    background-color: #E7F7F3;
+}
+.cat
+{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.cat b
+{
+    position: absolute;
+    padding: 70px;
+    letter-spacing: 1px;
+    font-size: 20pt;
+    font-kerning: normal;
+}
+.cat1
+{
+    width: 20%;
+    height: 57.3%;
+    background-color: white;
+    float: left;
+    margin: 140px 15px 50px 0px;
+}
+.cat2
+{
+    width: 20%;
+    height: 57.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 15px 50px 15px;
+}
+.cat3
+{
+    width: 20%;
+    height: 57.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 15px 50px 15px;
+}
+.cat4
+{
+    width: 20%;
+    height: 57.3%;
+    background-color: white;
+    float: right;
+    margin: 140px 0px 50px 15px;
+}
+.cta3
+{
+    width: 15%;
+    height: 35px;
+    background-color:none;
+    border: 1px solid #0F2E26;
+    position: absolute;
+    top: 80%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.cta3 a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;;
+    justify-content: center;
+}
+.cta3:hover
+{
+  background-color: #E7F7F3;  
+}
+.banner2
+{
+    width: 100%;
+    height: 33.5%;
+    background: url("../images/9.jpeg");
+    background-size: cover;
+    position: relative;
+}
+.banner2 b
+{
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-kerning: normal;
+}
+.banner2descrip
+{
+    width: 20%;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    line-height: 25px;
+    text-align: inherit;
+}
+.cta4
+{
+    width: 8%;
+    height: 35px;
+    background-color: none;
+    border: 1px solid #0F2E26;
+    position: absolute;
+    left: 45%;
+    top: 44.7%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.cta4 a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;;
+    justify-content: center;
+}
+.cta4:hover
+{
+    background-color: #E7F7F3;
+}
+.cata 
+{
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.cata b
+{
+    position: absolute;
+    padding: 70px;
+    letter-spacing: 1px;
+    font-size: 20pt;
+    font-kerning: normal;
+}  
+.cata1
+{
+    width: 15%;
+    height: 37.3%;
+    background-color: white;
+    float: left;
+    margin: 140px 20px 50px 0px;
+}
+.cata2
+{
+    width: 15%;
+    height: 37.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 20px 50px 20px;
+}
+.cata3
+{
+    width: 15%;
+    height: 37.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 20px 50px 20px;
+}
+.cata4
+{
+    width: 15%;
+    height: 37.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 20px 50px 20px;
+}
+.cata5
+{
+    width: 15%;
+    height: 37.3%;
+    background-color: white;
+    float: none;
+    margin: 140px 0px 50px 20px;
+}
+.catades1
+{
+    width: 100%;
+    height: 28%;
+    background-color:none;
+    float: left;
+    margin: 20px 20px 50px 0px;
+    position: relative;
+    line-height: 1px;
+}
+.catades2
+{
+    width: 100%;
+    height: 28%;
+    background-color:none;
+    float: left;
+    margin: 20px 20px 50px 0px;
+    position: relative;
+    line-height: 1px;
+}
+.catades3
+{
+    width: 100%;
+    height: 28%;
+    background-color:none;
+    float: left;
+    margin: 20px 20px 50px 0px;
+    position: relative;
+    line-height: 1px;
+}
+.catades4
+{
+    width: 100%;
+    height: 28%;
+    background-color:none;
+    float: left;
+    margin: 20px 20px 50px 0px;
+    position: relative;
+    line-height: 1px;
+}
+.catades5
+{
+    width: 100%;
+    height: 28%;
+    background-color: none;
+    float: left;
+    margin: 20px 20px 50px 0px;
+    text-align: center;
+    position: relative;
+    line-height: 1px;
+}
+.atc1
+{
+    width: 60%;
+    height: 35px;
+    background-color: none;
+    border: 1px solid #0F2E26;
+    position: absolute;
+    top: 110%;
+    margin: 0 auto; 
+    left: 0;
+    right: 0;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.atc1 a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5%;
+}
+.atc1:hover
+{
+  background-color: #E7F7F3;  
+}
+.footer
+{
+    width: 100%;
+    height: 300px;
+    background-color: whitesmoke;
+}
+.footer ul
+{
+	list-style: none;
+}
+.footer ul li
+{
+	padding: 50px 80px 5px 80px;
+	float: left;
+	position: relative;
+}
+.footer ul li b
+{
+    font-size: 12pt;
+}
+.footer ul li ul
+{
+    width: 120%;
+    position: absolute; 
+	left: -40px;
+	top: 50px;
+}
+.footer ul li ul li
+{
+    margin-bottom:-45px;
+    
+}
+.footer ul li ul a 
+{
+    text-decoration: none;
+    color: black;
+}
+.insta
+{
+    width: 9%;
+    height: 45%;
+    background-color: none;
+    z-index: 100;
+    position: absolute;
+    top: 96px;
+    left: 31%
+}
+.fb
+{
+    width: 9%;
+    height: 45%;
+    background-color: none;
+    z-index: 100;
+    position: absolute;
+    top: 96px;
+    left: 45%;
+}
+.yt
+{
+    width: 9%;
+    height: 45%;
+    background-color: none;
+    z-index: 100;
+    position: absolute;
+    top: 96px;
+    left: 59%;
+}
+
